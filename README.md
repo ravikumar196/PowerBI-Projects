@@ -1,36 +1,27 @@
-# 📊 Power BI Data Analytics Portfolio
+# 📊 Power BI Analytics Portfolio
 
-Welcome! This repository features **5 business intelligence dashboards** that solve real-world problems. Each project demonstrates end-to-end data pipelines: from cleaning messy source data in Power Query to star-schema modeling and building custom DAX business metrics.
-
----
-
-## 📈 Executive Project Index (Recruiter Quick Links)
-
-Click on any project link below to view its dedicated folder, raw datasets, formulas, and visual dashboard screenshots.
-
-| Project Dashboard | Core Business Focus | Primary Tools Deployed | Key Business Metrics |
-| :--- | :--- | :--- | :--- |
-| 🚀 **[Superstore Marketing Analytics](./01_Superstore_Marketing_Analytics/)** | Customer Loyalty ROI & Segmentation | Power Query, Conditional Logic | Churn Rate, Customer Lifetime Value (CLV), Tier Conversion % |
-| 👥 **[Corporate HR Attrition Suite](./02_Corporate_HR_Attrition_Suite/)** | Workforce Retention & Attrition Risks | Star Schema Data Modeling | Turnover %, Cost of Employee Churn, Tenure MoM Trend |
-| 📦 **[Global Supply Chain Control](./03_Global_SupplyChain_Logistics_Control/)** | Logistics Bottlenecks & Vendor SLAs | Data Extraction, Relationships | On-Time In-Full (OTIF) %, Transit Lead Time, Freight Margin |
-| 🔄 **[B2B SaaS Customer Cohort Analysis](./04_B2B_SaaS_Customer_Cohort_Analysis/)** | Monthly Subscription Health & Retention | Advanced Time-Intelligence DAX | Net Revenue Retention (NRR), Monthly Recurring Revenue (MRR) |
-| 💼 **[Executive Finance Performance Hub](./05_Executive_Finance_Performance_Hub/)** | Corporate Profitability & Cash Flow | Relational Database Merges | Gross Margin %, Operating Expenses (OPEX), YTD Growth |
+Welcome to my Power BI repository. This space houses production-ready business intelligence projects focused on star schema data modeling, Power Query transformations, and metrics-driven DAX calculations.
 
 ---
 
-## 🛠️ Technical Skill Matrix
+## 📈 Featured Dashboards
 
-| Skill Area | Practical Application in These Projects |
-| :--- | :--- |
-| **Data Modeling** | Building clean 1-to-many relationships; designing optimized **Star Schemas** to prevent database lag. |
-| **Advanced DAX** | Dynamic aggregations using `CALCULATE`, iterators (`SUMX`, `AVERAGEX`), and Time-Intelligence (`TOTALYTD`, `SAMEPERIODLASTYEAR`). |
-| **Power Query ETL** | Automated data scrubbing, merging tables, unpivoting transactional records, and changing datatypes. |
-| **Dashboard UI/UX** | Creating professional, clutter-free layouts with intuitive color palettes, dynamic tooltips, and cross-filtering. |
+| Project & Repository Link | Core Business Focus | Key Metrics & KPI Deployed |
+| :--- | :--- | :--- |
+| 🔗 **[Superstore Marketing Analytics](./01_Superstore_Marketing_Analytics/)** | Customer Loyalty ROI & Value Segmentation | Churn Rate, Customer Lifetime Value (CLV), Tier Conversion % |
+| 🔗 **[Corporate HR Attrition Suite](./02_Corporate_HR_Attrition_Suite/)** | Workforce Retention & Talent Risk Tracking | Employee Turnover %, Cost of Churn, Monthly Retention Trends |
+| 🔗 **[Global Supply Chain Control](./03_Global_SupplyChain_Logistics_Control/)** | Logistics Bottlenecks & Supplier Performance | On-Time In-Full (OTIF) %, Lead Time, Freight Margin Leakage |
+| 🔗 **[B2B SaaS Customer Cohort Analysis](./04_B2B_SaaS_Customer_Cohort_Analysis/)** | Multi-Year Subscription Value Cycles | Monthly Recurring Revenue (MRR), Churn Rate, Retention Heatmaps |
+| 🔗 **[Executive Finance Performance Hub](./05_Executive_Finance_Performance_Hub/)** | P&L Health & Corporate Cash Flow | Gross Margin %, Operating Expenses (OPEX), YTD Growth |
 
 ---
 
-## 🤝 Let's Connect!
+## 🛠️ Core Technical Competencies
 
-* **Main Profile & Other Projects:** [@Ravikumar196](https://github.com/Ravikumar196)
-* **Professional Network:** [Connect with me on LinkedIn](https://linkedin.com/in/ravi-kumar-13b322236)
-* **Email:** ravikumar.analytics@example.com
+* **Data Modeling:** Designing clean Star Schemas and building optimized 1-to-many relationship structures.
+* **DAX Engineering:** Writing business logic using context modifiers (`CALCULATE`), iterators (`SUMX`), and time intelligence (`TOTALYTD`).
+* **Power Query ETL:** Standardizing, merging, cleaning, and unpivoting messy flat-file corporate data.
+* **Dashboard UI/UX:** Constructing minimalist visual layouts focused on actionable business insights.
+
+---
+📬 **Let's Connect!** [Main GitHub Profile](https://github.com/Ravikumar196) | [LinkedIn Professional Network](https://linkedin.com/in/ravi-kumar-13b322236)
