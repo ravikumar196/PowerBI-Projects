@@ -1,49 +1,65 @@
 # 🍕 Pizza Sales Performance & Revenue Analytics
 
-## 📌 1. Project Overview
-This project analyzes retail transaction logs from a pizza restaurant chain to evaluate sales performance, identify peak ordering trends, and track menu item popularity. The goal is to uncover data-driven insights that can optimize inventory management, improve kitchen staffing schedules, and maximize total revenue.
+## 📌 1. Background & Problem Statement
+This project analyzes **21,350+ operational transaction records** from a pizza restaurant chain to evaluate sales performance, identify peak ordering patterns, and isolate menu item behavior. The goal is to track core commercial metrics to help restaurant managers optimize supply chains, plan kitchen staffing schedules, and maximize total revenue.
 
 ---
 
-## 📂 2. Project Directory
+## 📂 2. Project Asset Matrix
 
-| File Name | Description | Link |
+| Asset Group | Technical Scope & Deliverables | Direct Access Link |
 | :--- | :--- | :---: |
-| 📊 **Pizza_Sales_Dataset.csv** | Raw transaction logs tracking order dates, times, prices, and pizza types | [Open File](./Pizza_Sales_Dataset.csv) |
-| 📓 **Pizza_Sales_Analysis.ipynb** | Core data cleaning, pipeline transformations, and business query logic | [Open File](./Pizza_Sales_Analysis.ipynb) |
-| 🖼️ **pizza_dashboard.png** | Exported visual chart displaying key revenue metrics and trends | [View Chart](./pizza_dashboard.png) |
+| 📊 **Raw Dataset** | Core transactional logs containing order dates, times, categories, and sizing | [Open CSV Dataset](./Data/pizza_sales.csv) |
+| 🗄️ **SQL Script** | Structured backend queries engineered to extract high-level business KPIs | [Open SQL Queries](./SQL/pizza_sales_queries.sql) |
+| 📸 **SQL Screenshots** | PDF document compiled with execution outputs and verified query code screens | [View SQL Script PDF](./SQL/pizza_sales_queries_screenshot.pdf) |
+| 📓 **Python Pipeline** | Jupyter Notebook used for schema profiling, data cleaning, and preprocessing | [Open Jupyter Notebook](./Python/Pizza_Sales_Analysis.ipynb) |
+| 📊 **Power BI File** | Interactive executive dashboard mapping out complete sales trends | [Open Dashboard File](./Dashboard/Pizza_Sales_Dashboard.pbix) |
+| 🖼️ **Dashboard Reports** | Complete multi-page executive dashboard views compiled into a single document | [View Dashboard PDF](./Dashboard/pizza_sales_dashboard_screenshots.pdf) |
+
+## 🖼️ 3. Executive Dashboard Visuals
+*Below are the core views exported directly from the interactive dashboard environment:*
+
+* **KPI Summary & Trends:** `![KPI Metrics View](./Screenshots/kpi_metrics_view.png)`
+* **Hourly Restructure Analysis:** `![Hourly Trend Chart](./Screenshots/hourly_trend_chart.png)`
+* **Product Performance Chart:** `![Top/Bottom Sellers](./Screenshots/top_bottom_sellers.png)`
 
 ---
 
-## 📊 3. Final Chart Preview
-![Pizza Sales Dashboard](./pizza_dashboard.png)
+## 💡 4. Deep-Dive Analytical Insights (From Dashboard Data)
+
+### A. Core Operational KPIs
+| Measured Business Metric | Final Calculated Value | Strategic Revenue Meaning |
+| :--- | :---: | :--- |
+| 💰 **Total Revenue** | **$817.86K** | Total gross sales recorded over the annual tracking window. |
+| 🛒 **Total Orders Placed** | **21.35K** | Cumulative transaction volume processed by the kitchen. |
+| 🍕 **Total Pizzas Sold** | **49.57K** | Total individual units prepared and distributed. |
+| 💵 **Average Order Value** | **$38.31** | Average financial ticket size generated per transaction. |
+| 📈 **Average Pizzas Per Order** | **2.32 Units** | Standard order basket density per customer checkout group. |
 
 ---
 
-## 💡 4. Key Performance Indicators (KPIs) & Insights
-
-### A. Sales Distribution & Peak Order Windows
-* **Peak Ordering Hours:** Transaction clusters peak sharply between **12:00 PM – 1:30 PM** (Lunch Rush) and **5:30 PM – 7:30 PM** (Dinner Rush), accounting for over **62%** of total daily revenue.
-* **Weekly Trends:** Fridays and Saturdays generate the highest sales volume, driving a **35% increase** in orders compared to weekday averages (Monday–Wednesday).
-
-### B. Product Category Performance
-| Pizza Category | Orders Placed | Total Revenue Generated | Average Order Value |
-| :--- | :---: | :---: | :---: |
-| 🍗 **Chicken** | Moderate | High | Premium Price Tier |
-| 🧀 **Classic** | High Volume | Consistent | Mid-Range Tier |
-| 🌿 **Veggie** | Steady | Steady | Standard Tier |
-| 🌶️ **Supreme** | High Volume | High | Premium Price Tier |
-
-### C. Core Operational Discoveries
-* **Size Variations:** Large (L) and Extra-Large (XL) pizza orders generate roughly **70% of total profits**, despite representing only 45% of total units sold, due to higher margin markups.
-* **Underperforming Items:** The bottom three menu items contribute to less than **2% of total sales volume**, indicating an immediate opportunity to simplify the menu and cut inventory waste.
+### B. Time-Series Trends & Peak Rush Windows
+* **Weekly Performance:** Total orders peak heavily on weekends, with **Fridays (3.5K orders)** and **Saturdays (3.2K orders)** recording the highest transaction volume. Sundays represent the lowest activity window with **2.6K orders**.
+* **Monthly Performance:** Sales remain highly consistent year-round, peaking during the months of **July ($72.6K revenue)** and **January ($71.4K revenue)**, while hitting a seasonal baseline low in **October ($64.0K revenue)**.
+* **Daily Performance:** The highest density of kitchen activity occurs during the afternoon and evening hours, driven by distinct lunch and dinner ordering spikes.
 
 ---
 
-## 🎯 5. Data-Driven Recommendations
-* **Staffing Optimization:** Increase kitchen and delivery staff schedules explicitly between 5:00 PM and 8:00 PM on weekends to handle peak ordering windows and lower order wait times.
-* **Targeted Promotions:** Launch targeted afternoon promotions (e.g., 2:00 PM – 4:30 PM) to boost sales during the slowest revenue hours of the day.
-* **Menu Restructuring:** Phase out the lowest-performing pizza varieties to reduce ingredient holding costs and streamline kitchen operations.
+### C. Menu & Product Category Slicing
 
+| Evaluation Filter | Top Performing Segment | Bottom Performing Segment | Key Business Takeaway |
+| :--- | :--- | :--- | :--- |
+| 🍕 **Pizza Category** | **Classic** ($220.06K Revenue / 14.89K Units) | **Chicken** ($195.91K Revenue / 11.05K Units) | Classic options anchor predictable, high-volume baseline sales, while Chicken delivers high revenue per unit. |
+| 📏 **Pizza Size** | **Large (L)** ($375.32K Revenue / 18.96K Units) | **Regular (R)** ($259.18K Revenue / 16.32K Units) | Large sizes drive the absolute majority of sales volume and anchor gross margin growth. |
+| 🏆 **Top Revenue Item** | **The Thai Chicken Pizza** ($43.43K Gross Sales) | — | Holds maximum value across Revenue, Quantity, and overall Orders. |
+| ⚠️ **Worst Revenue Item** | — | **The Brie Carre Pizza** ($11.59K Gross Sales) | Lowest overall contributor to gross restaurant sales; requires immediate menu reassessment. |
+
+---
+
+## 🎯 5. Conclusion & Actionable Suggestions
+
+* **Staffing Optimization:** Kitchen schedules and delivery rosters should be increased specifically on **Fridays and Saturdays** to handle the high-volume weekend rush (**3.2K to 3.5K orders**) and keep customer wait times low.
+* **Menu Restructuring:** Leadership should consider running targeted promotions for the lowest-performing menu item (**The Brie Carre Pizza**, which only brought in **$11.59K**) or phasing it out entirely to cut down on special ingredient inventory costs.
+* **Upselling Strategies:** Since **Large (L) sizes** drive the largest share of overall revenue (**$375.32K**), front-of-house teams should focus on bundled meal-deal promotions that encourage customers to upgrade from regular or small sizes.
 ---
 🔗 **Return to Main Portfolio:** [@Ravikumar196](https://github.com/Ravikumar196) | Connect via **[LinkedIn](https://www.linkedin.com/in/ravi-kumar-13b322236/)**
