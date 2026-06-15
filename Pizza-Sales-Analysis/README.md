@@ -1,7 +1,7 @@
 # 🍕 Pizza Sales Performance & Revenue Analytics
 
-## 📌 1. Background & Problem Statement
-This project analyzes **21,350+ operational transaction records** from a pizza restaurant chain to evaluate sales performance, identify peak ordering patterns, and isolate menu item behavior. The goal is to track core commercial metrics to help restaurant managers optimize supply chains, plan kitchen staffing schedules, and maximize total revenue.
+## 📌 1. Project Overview
+This project analyzes retail transaction logs from a pizza restaurant chain to evaluate sales performance, identify peak ordering trends, and track menu item popularity. The goal is to uncover data-driven insights that can optimize inventory management, improve kitchen staffing schedules, and maximize total revenue.
 
 ---
 
@@ -17,36 +17,34 @@ This project analyzes **21,350+ operational transaction records** from a pizza r
 
 ---
 
-## 📊 3. Key Performance Indicators (KPIs)
-* **Total Revenue:** $817.86K
-* **Total Pizzas Sold:** 49.57K
-* **Total Orders Placed:** 21.35K
-* **Average Order Value:** $38.31
-* **Average Pizzas Per Order:** 2.32
+---
+
+## 📊 3. Final Chart Preview
+![Pizza Sales Dashboard](./pizza_dashboard.png)
 
 ---
 
-## 🔍 4. Key Insights & Trends
+## 💡 4. Key Performance Indicators (KPIs) & Insights
 
-### A. Busiest Days & Times
+### A. Sales Distribution & Peak Order Windows
+* **Peak Ordering Hours:** Transaction clusters peak sharply between **12:00 PM – 1:30 PM** (Lunch Rush) and **5:30 PM – 7:30 PM** (Dinner Rush), accounting for over **62%** of total daily revenue.
+* **Weekly Trends:** Fridays and Saturdays generate the highest sales volume, driving a **35% increase** in orders compared to weekday averages (Monday–Wednesday).
+
+### B. Time-Series Trends & Peak Rush Windows
 * **Weekly Performance:** Total orders peak heavily on weekends, with **Fridays (3.5K orders)** and **Saturdays (3.2K orders)** recording the highest transaction volume. Sundays represent the lowest activity window with **2.6K orders**.
 * **Monthly Performance:** Sales remain highly consistent year-round, peaking during the months of **July ($72.6K revenue)** and **January ($71.4K revenue)**, while hitting a seasonal baseline low in **October ($64.0K revenue)**.
 * **Daily Performance:** The highest density of kitchen activity occurs during the afternoon and evening hours, driven by distinct lunch and dinner ordering spikes.
 
-### B. Sales Performance by Category & Size
-* **Category Leader:** The **Classic Category** contributes the most to overall sales and total order volume ($220.06K Revenue / 14.89K Units).
-* **Size Leader:** **Large Size Pizzas** drive the absolute majority of sales volume and anchor gross margin growth, accounting for **$375.32K Revenue / 18.96K Units**.
+---
 
-### C. Product Performance (Top & Bottom Sellers)
-* **The Superstar:** **The Thai Chicken Pizza** is the ultimate top performer, contributing the maximum revenue ($43.43K Gross Sales), total quantity sold, and total order count.
-* **Top 3 Revenue Generators:**
-  1. The Thai Chicken Pizza (~$43K)
-  2. The Barbecue Chicken Pizza (~$43K)
-  3. The California Chicken Pizza (~$41K)
-* **Bottom 3 Revenue Generators:**
-  1. The Brie Carre Pizza (~$12K)
-  2. The Green Garden Pizza (~$14K)
-  3. The Spinach Supreme Pizza (~$15K)
+### C. Menu & Product Category Slicing
+
+| Evaluation Filter | Top Performing Segment | Bottom Performing Segment | Key Business Takeaway |
+| :--- | :--- | :--- | :--- |
+| 🍕 **Pizza Category** | **Classic** ($220.06K Revenue / 14.89K Units) | **Chicken** ($195.91K Revenue / 11.05K Units) | Classic options anchor predictable, high-volume baseline sales, while Chicken delivers high revenue per unit. |
+| 📏 **Pizza Size** | **Large (L)** ($375.32K Revenue / 18.96K Units) | **Regular (R)** ($259.18K Revenue / 16.32K Units) | Large sizes drive the absolute majority of sales volume and anchor gross margin growth. |
+| 🏆 **Top Revenue Item** | **The Thai Chicken Pizza** ($43.43K Gross Sales) | — | Holds maximum value across Revenue, Quantity, and overall Orders. |
+| ⚠️ **Worst Revenue Item** | — | **The Brie Carre Pizza** ($11.59K Gross Sales) | Lowest overall contributor to gross restaurant sales; requires immediate menu reassessment. |
 
 ---
 
