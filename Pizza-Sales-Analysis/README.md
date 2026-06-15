@@ -20,7 +20,7 @@ This project analyzes retail transaction logs from a pizza restaurant chain to e
 ---
 
 ## 📊 3. Final Chart Preview
-![Pizza Sales Dashboard](./pizza_dashboard.png)
+![Pizza Sales Dashboard](https://github.com/ravikumar196/PowerBI-Projects/blob/main/Pizza-Sales-Analysis/Screenshot%202026-06-15%20124935.png)
 
 ---
 
