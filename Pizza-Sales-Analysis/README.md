@@ -9,11 +9,11 @@ This project analyzes retail transaction logs from a pizza restaurant chain to e
 
 | Asset Group | Technical Scope & Deliverables | Direct Access Link |
 | :--- | :--- | :---: |
-| 📊 **Raw Dataset** | Core transactional logs containing order dates, times, categories, and sizing | [Open CSV Dataset](./Data/pizza_sales.csv) |
-| 🗄️ **SQL Script** | Structured backend queries engineered to extract high-level business KPIs | [Open SQL Queries](./SQL/pizza_sales_queries.sql) |
-| 📸 **SQL Screenshots** | PDF document compiled with execution outputs and verified query code screens | [View SQL Script PDF](./SQL/pizza_sales_queries_screenshot.pdf) |
-| 📊 **Power BI File** | Interactive executive dashboard mapping out complete sales trends | [Open Dashboard File](./Dashboard/Pizza_Sales_Dashboard.pbix) |
-| 🖼️ **Dashboard Reports** | Complete multi-page executive dashboard views compiled into a single document | [View Dashboard PDF](./Dashboard/pizza_sales_dashboard_screenshots.pdf) |
+| 📊 **Raw Dataset** | Core transactional logs containing order dates, times, categories, and sizing | [Open CSV Dataset](https://github.com/ravikumar196/PowerBI-Projects/blob/main/Pizza-Sales-Analysis/Pizza_Sales_Data.csv) |
+| 🗄️ **SQL Script** | Structured backend queries engineered to extract high-level business KPIs | [Open SQL Queries](https://github.com/ravikumar196/PowerBI-Projects/blob/main/Pizza-Sales-Analysis/Pizza%20Sales%20SQL.sql) |
+| 📸 **SQL Screenshots** | PDF document compiled with execution outputs and verified query code screens | [View SQL Script PDF](https://github.com/ravikumar196/PowerBI-Projects/blob/main/Pizza-Sales-Analysis/Pizza_Sales_SQL%20screecnshots.pdf) |
+| 📊 **Power BI File** | Interactive executive dashboard mapping out complete sales trends | [Open Dashboard File](https://github.com/ravikumar196/PowerBI-Projects/blob/main/Pizza-Sales-Analysis/Pizza%20Sales%20Dashboard.pbix) |
+| 🖼️ **Dashboard Screenshots** | Complete multi-page executive dashboard views compiled into a single document | [View Dashboard PDF](https://github.com/ravikumar196/PowerBI-Projects/blob/main/Pizza-Sales-Analysis/pizza_sales_Dashboard_Screenshots.pdf) |
 
 ---
 
