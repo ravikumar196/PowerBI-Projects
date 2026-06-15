@@ -41,8 +41,8 @@ This project analyzes retail transaction logs from a pizza restaurant chain to e
 
 | Evaluation Filter | Top Performing Segment | Bottom Performing Segment | Key Business Takeaway |
 | :--- | :--- | :--- | :--- |
-| 🍕 **Pizza Category** | **Classic** ($220.06K Revenue / 14.89K Units) | **Chicken** ($195.91K Revenue / 11.05K Units) | Classic options anchor predictable, high-volume baseline sales, while Chicken delivers high revenue per unit. |
-| 📏 **Pizza Size** | **Large (L)** ($375.32K Revenue / 18.96K Units) | **Regular (R)** ($259.18K Revenue / 16.32K Units) | Large sizes drive the absolute majority of sales volume and anchor gross margin growth. |
+| 🍕 **Pizza Category** | **Classic** ($220.06K Revenue / 14.89K Units) | **Veggie** ($193.69K Revenue / 11.65K Units) | Classic options anchor predictable, high-volume baseline sales, while Veggie represents the lowest revenue channel. |
+| 📏 **Pizza Size** | **Large (L)** ($375.32K Revenue / 18.96K Units) | **Regular (R)** ($259.18K Revenue / 16.32K Units) | Large sizes drive the absolute majority of sales volume and anchor gross margin growth at 45.8% of the mix. |
 | 🏆 **Top Revenue Item** | **The Thai Chicken Pizza** ($43.43K Gross Sales) | — | Holds maximum value across Revenue, Quantity, and overall Orders. |
 | ⚠️ **Worst Revenue Item** | — | **The Brie Carre Pizza** ($11.59K Gross Sales) | Lowest overall contributor to gross restaurant sales; requires immediate menu reassessment. |
 
