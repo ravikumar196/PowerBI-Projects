@@ -1,18 +1,39 @@
+# Social Media Addiction & User Behavior Analysis (Python)
 
-# 📱 Student Behavioral Study: Social Media Addiction Metrics
-
-## 📌 1. Project Background & Problem Statement
-With the global rise of algorithm-driven social platforms, digital dependency among students has expanded dramatically. For corporate HR teams, data-driven wellness institutions, and academic directors, the primary challenge is identifying the point where healthy daily connectivity degrades into a psychological and behavioral addiction risk.
-
-**The Core Challenge:** This project analyzes structured survey data from a global cohort of 705 student profiles. It isolates how prolonged daily social media screen time triggers a negative cascade into compromised sleep patterns, localized social friction, falling mental health scores, and drops in academic performance.
+## 📌 1. Project Objective
+As digital platforms scale, understanding user engagement boundaries has become essential for wellness tech, corporate HR, and product teams. The goal of this project is to analyze consumer behavioral surveys to identify key demographic groups exhibiting high social platform dependency and measure its direct impact on user productivity scores.
 
 ---
 
-## 📂 2. Structured Portfolio Directory
+## 🛠️ 2. Key Libraries Used
+* **Data Manipulation:** `pandas`, `numpy`
+* **Data Visualization:** `matplotlib.pyplot`, `seaborn`
 
-| Project Component | Technical Description & Scope | Direct Action Link |
-| :--- | :--- | :--- |
-| 📊 **Raw Dataset** | Verified CSV matrix containing demographic and lifestyle evaluations for 705 student profiles. | [Open Raw CSV Dataset](./Students%20Social%20Media%20Addiction%20(1).csv) |
-| 📓 **Jupyter Notebook** | End-to-end analytical notebook featuring data transformation, group aggregations, and charts. | [Open Analytical Notebook](./Social%20Media%20Addiction.ipynb) |
-| ⚙️ **Python Pipeline** | Production-ready automation script optimized for execution in batch processing data workflows. | [Open Python Production Script](./python%20main.py) |
-| 🖼️ **Visual Chart** | Exported distribution visualization highlighting application coverage and data densities. | [View High-Res Screenshot](./social_media_chart.png) |
+---
+
+## 💻 3. Code Implementation & Execution
+
+Here is how I leveraged Pandas and Seaborn to process the records, handle anomalies, and plot the distribution profiles:
+
+```python
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# 1. Load behavioral survey data
+df = pd.read_csv("Social Media Addiction.csv")
+
+# 2. Extract cohort analytics (Grouping Age & Screen Time)
+age_metrics = df.groupby('Age')['Current Screen Time'].mean().reset_index()
+
+# 3. Establish correlation between usage and productivity levels
+correlation = df['Current Screen Time'].corr(df['Productivity Level'])
+print(f"Usage vs Productivity Correlation Vector: {correlation:.2f}")
+
+# 4. Generate visual representation
+plt.figure(figsize=(10, 6))
+sns.histplot(data=df, x='Current Screen Time', hue='Platform', multiple='stack', kde=True)
+plt.title('Distribution of Screen Time across Target Social Platforms')
+plt.xlabel('Daily Screen Time (Hours)')
+plt.ylabel('User Registry Count')
+plt.show()
