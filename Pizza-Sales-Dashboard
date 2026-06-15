@@ -1,1 +1,18 @@
 
+# 📱 Student Behavioral Study: Social Media Addiction Metrics
+
+## 📌 1. Project Background & Problem Statement
+With the global rise of algorithm-driven social platforms, digital dependency among students has expanded dramatically. For corporate HR teams, data-driven wellness institutions, and academic directors, the primary challenge is identifying the point where healthy daily connectivity degrades into a psychological and behavioral addiction risk.
+
+**The Core Challenge:** This project analyzes structured survey data from a global cohort of 705 student profiles. It isolates how prolonged daily social media screen time triggers a negative cascade into compromised sleep patterns, localized social friction, falling mental health scores, and drops in academic performance.
+
+---
+
+## 📂 2. Structured Portfolio Directory
+
+| Project Component | Technical Description & Scope | Direct Action Link |
+| :--- | :--- | :--- |
+| 📊 **Raw Dataset** | Verified CSV matrix containing demographic and lifestyle evaluations for 705 student profiles. | [Open Raw CSV Dataset](./Students%20Social%20Media%20Addiction%20(1).csv) |
+| 📓 **Jupyter Notebook** | End-to-end analytical notebook featuring data transformation, group aggregations, and charts. | [Open Analytical Notebook](./Social%20Media%20Addiction.ipynb) |
+| ⚙️ **Python Pipeline** | Production-ready automation script optimized for execution in batch processing data workflows. | [Open Python Production Script](./python%20main.py) |
+| 🖼️ **Visual Chart** | Exported distribution visualization highlighting application coverage and data densities. | [View High-Res Screenshot](./social_media_chart.png) |
