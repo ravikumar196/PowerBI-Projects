@@ -8,7 +8,7 @@ Welcome to my Power BI portfolio repository. This space highlights production-re
 
 | Project & Repository Link | Core Business Focus | Key Metrics & KPI Deployed |
 | :--- | :--- | :--- |
-| **[Pizza Sales Dashboard](./01_Superstore_Analytics_Dashboard/)** | Customer Loyalty ROI & Value Segmentation | Churn Rate, Customer Lifetime Value (CLV), Tier Conversion % |
+| **[Pizza Sales Dashboard](https://github.com/ravikumar196/Pizza-Sales-Dashboard)** | Customer Loyalty ROI & Value Segmentation | Churn Rate, Customer Lifetime Value (CLV), Tier Conversion % |
 | **[HR Analytics dashboard](./02_HR_Analytics_dashboard/)** | Workforce Retention & Talent Risk Tracking | Employee Turnover %, Cost of Churn, Monthly Retention Trends |
 | **[Global Supply Chain Control](./03_Global_SupplyChain_Logistics_Control/)** | Logistics Bottlenecks & Supplier Performance | On-Time In-Full (OTIF) %, Lead Time, Freight Margin Leakage |
 | **[B2B SaaS Customer Cohort Analysis](./04_B2B_SaaS_Customer_Cohort_Analysis/)** | Multi-Year Subscription Value Cycles | Monthly Recurring Revenue (MRR), Churn Rate, Retention Heatmaps |
