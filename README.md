@@ -33,7 +33,7 @@
 
 | # | Project | Business Focus | Key KPIs |
 |:--|:--------|:---------------|:---------|
-| 🍕 | **[Pizza Sales Dashboard](./01_Pizza_Sales_Analysis/)** | Sales Performance & Product Intelligence | Revenue, Order Volume, Best/Worst Sellers, Peak Hours |
+| 🍕 | **[Pizza Sales Dashboard](https://github.com/ravikumar196/PowerBI-Projects/tree/main/Pizza-Sales-Analysis)** | Sales Performance & Product Intelligence | Revenue, Order Volume, Best/Worst Sellers, Peak Hours |
 | 👥 | **[HR Analytics Dashboard](./02_HR_Analytics_Dashboard/)** | Workforce Retention & Talent Risk | Attrition Rate %, Cost of Churn, Retention Trends |
 | 🌍 | **[Global Supply Chain Control](./03_Global_SupplyChain_Logistics_Control/)** | Logistics & Supplier Performance | OTIF %, Lead Time, Freight Margin Leakage |
 | 📉 | **[B2B SaaS Cohort Analysis](./04_B2B_SaaS_Customer_Cohort_Analysis/)** | Subscription Value & Retention Cycles | MRR, Churn Rate, Retention Heatmaps |
